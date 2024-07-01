@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megha Car Audio Paradise - Premium Car Audio Solutions</title>
+    <style>
+        /* Basic reset and overall styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Header Styles */
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        /* Showcase */
+        #showcase {
+            min-height: 400px;
+            background: url('car-audio-bg.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        
+        /* Services */
+        #services {
+            margin-top: 20px;
+        }
+        #services .box {
+            float: left;
+            width: 33.3%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Call to Action */
+        #cta {
+            padding: 15px;
+            background: #e8491d;
+            color: #fff;
+            margin-top: 10px;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media(max-width: 768px) {
+            header #branding,
+            header nav,
+            header nav li,
+            #services .box {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+            header {
+                padding-bottom: 20px;
+            }
+            #showcase h1 {
+                margin-top: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Megha Car Audio Paradise</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Premium Car Audio Solutions</h1>
+            <p>Experience sound like never before in your vehicle</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="box">
+                <h3>Custom Installations</h3>
+                <p>Tailored audio solutions for your unique vehicle and preferences.</p>
+            </div>
+            <div class="box">
+                <h3>High-End Products</h3>
+                <p>Top-quality speakers, amplifiers, and subwoofers from leading brands.</p>
+            </div>
+            <div class="box">
+                <h3>Expert Advice</h3>
+                <p>Professional guidance to help you achieve the perfect sound system.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="container">
+            <h2>Transform Your Ride Today</h2>
+            <button>Book a Consultation</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>SoundCruise Audio, Copyright &copy; 2024</p>
+    </footer>
+</body>
+</html>
